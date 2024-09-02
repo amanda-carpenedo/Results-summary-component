@@ -1,0 +1,140 @@
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.secao-principal {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 295px;
+    height: 410px;
+    border-radius: 25px;
+    padding: 30px 40px;
+
+}
+
+.secao-principal .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.secao-principal .container .cabecalho {
+    font-size: 19px;
+    margin-bottom: 28px;
+}
+
+.secao-principal .container .numero-resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    margin-bottom: 25px;
+
+}
+
+.secao-principal .container .numero-resultado h1 {
+    font-size: 56px;
+    margin-top: 15px;
+
+
+}
+
+.secao-principal .container .numero-resultado h2 {
+    font-size: 15px;
+    font-weight: 200;
+    transform: translateY(-5px);
+
+
+}
+
+.secao-principal .container h2 {
+    font-size: 25px;
+
+}
+
+
+.secao-principal .container p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.secao-secundaria {
+    background-color: white;
+    width: 300px;
+    height: 410px;
+    padding: 30px 20px 30px 40px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 5px 30px rgb(222, 218, 232);
+}
+
+.secao-secundaria .cabecalho-secao-secundaria {
+    font-size: 19px;
+    margin-bottom: 22px;
+}
+
+table,
+th,
+td {
+    border: none;
+    border-collapse: collapse;
+    font-weight: 800;
+    font-size: 14px;
+  
+}
+
+td {
+
+}
+
+table {
+    width: 100%;
+
+}
+
+.primeira-coluna {
+    width: 20px;
+
+}
+
+.segunda-coluna {
+    height: 50px;
+    width: 130px;
+    padding-left: 10px;
+
+}
+
+.secao-secundaria a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+   color: white;
+  
+}
+
+.secao-secundaria .botao {
+    background-color: hsl(252, 70%, 18%);
+    width: 230px;
+    height: 45px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-7px, 48px);
+
+}
